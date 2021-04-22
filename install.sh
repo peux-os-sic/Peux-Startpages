@@ -4,14 +4,16 @@ PASSWD="$(zenity --password --title=Authentication)\n"
 
 if [ -e /etc/startpages/wow/index.html ];
 then
-    rm -rf wow
-    echo -e $PASSWD | sudo -A cp -r */ /etc/startpages/
+    echo "running if"
     cd ../
+    rm -rf Peux-Startpages/wow
+    echo -e $PASSWD | sudo -S cp -r Peux-Startpages/*/ /etc/startpages/
     rm -rf Peux-Startpages
 
 else
-    echo -e $PASSWD | sudo -A mkdir /etc/startpages && sudo cp -r */ /etc/startpages/
+    echo "running else"
     cd ../
+    echo -e $PASSWD | sudo -S mkdir /etc/startpages && sudo cp -r Peux-Startpages/*/ /etc/startpages/
     rm -rf Peux-Startpages
 fi
 
