@@ -1,0 +1,1 @@
+Startpages is a collection of custom landing pages for browsers. You can set this as the home page on any browser of your choice. The default location is "/etc/startpages/".
