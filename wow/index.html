@@ -1,0 +1,125 @@
+    <!-- 
+        #Credits
+        
+        The man behind the design is Catalin: https://dribbble.com/hisk
+        The kick-ass implementation was done by Nathan Taylor: https://dribbble.com/nathantokyo
+        The credits goes to these two guys.
+
+        What I did? Modified it- ain't that obvious ;)
+    -->
+
+
+    <html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="DN-debug">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/grid.css" rel="stylesheet" />
+        <!-- favicon-->
+        <link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon-96x96.png' />
+        <!--title-->
+        <title>HOME</title>
+
+
+    </head>
+
+
+    <body>
+
+        <div class="wrap">
+            <div class="back">
+                <div class="back__slide active">
+                    <div class="progress"></div>
+                </div>
+                <div class="back__slide">
+                    <div class="progress"></div>
+                    <div class="back-front-image"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__slide active">
+                    <span class="number">
+                        <span id="span" style="font-size: 50px; margin-left: 5%;"></span>
+                        <span class="number" id="day" style="font-size: 30x; margin-top: 10%;"></span>
+                    </span>
+                </div>
+                <div class="card__slide">
+                    <div class="back-image"></div>
+                </div>
+                <div class="content">
+                    <div class="content__slide active">
+                        <h2 class="title">
+                            <span class="title__line">
+                                <span class="title__inner">
+                                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                </span>
+                            </span>
+                        </h2>
+                        <p class="desc" id="quotation">"The Linux philosophy is 'Laugh in the face of danger'. Oops. Wrong One. 'Do it yourself'. Yes, that's it." <br>
+                            <i id="source">~ Linus Torvalds</i></p>
+                        <div class="button-wrap">
+                            <a class="button">Quick Links<span class="button__hover"></span></a>
+                            <a class="cbutton" href="https://www.google.com/" target="_blank">GOOGLE<span class="cbutton_hover"></span></a>
+                            <a class="cbutton" href="https://duckduckgo.com/?q=" target="_blank">DuckDuckGo<span class="cbutton_hover"></span></a>
+                        </div> <br><br>
+                        <div class="button-wrap">
+                            <a class="cbutton" href="https://www.startpage.com/en/" target="_blank">StartPage<span class="cbutton_hover"></span></a>
+                            <a class="cbutton" href="https://www.ecosia.org/" target="_blank">Ecosia<span class="cbutton_hover"></span></a>
+                        </div>
+                        <span class="desc" id="span"></span>
+                    </div>
+                    <div class="content__slide">
+                        <h2 class="title">
+                            <span class="title__line"> <span class="title__inner">Quick Links</span></span>
+                        </h2>
+                        <div class=" desc gcontainer">
+                            <div class="itRed item1">
+                                <a id="applink" href="https://open.spotify.com/" target="_blank">Spotify</a>
+                            </div>
+                            <div class="itRed item2">
+                                <a id="applink" href="https://www.mixcloud.com/" target="_blank">MixCloud</a>
+                            </div>
+
+                            <div class="itRed item5">
+                                <a id="applink" href="https://www.youtube.com" target="_blank">YouTube</a>
+                            </div>
+
+                            <div class="it item3">
+                                <a id="applink" href="https://twitter.com/" target="_blank">Twitter</a>
+                            </div>
+
+                            <div class="it item4">
+                                <a id="applink" href="https://www.gmail.com/" target="_blank">Gmail</a>
+                            </div>
+
+                            <div class="itBlue item8">
+                                <a id="applink" href="https://drive.google.com/drive/">GDrive</a>
+                            </div>
+
+                            <div class="itBlue item6">
+                                <a id="applink" href="https://mega.nz/pro" target="_blank">MegaCloud</a>
+                            </div>
+                            <div class="itBlue item7">
+                                <a id="applink" href="https://luong-komorebi.gitlab.io/Awesome-Linux-Software/" target="_blank">Linux-Tools</a>
+                            </div>
+
+                        </div>
+                        <div class="button-wrap"><a class="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back<span class="button__hover"></span></a></div>
+                    </div>
+                    <div class="content__ping content__ping--noanimation"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/date.js"></script>
+
+
+    </body>
+
+    </html>

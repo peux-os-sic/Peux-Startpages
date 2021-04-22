@@ -1,0 +1,9 @@
+#span {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: freemono;
+    letter-spacing: 7px;
+}
