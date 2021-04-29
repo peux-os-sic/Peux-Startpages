@@ -5,8 +5,6 @@
 # Description - Peux OS startpages' copy script
 ###########################################################
 
-PASSWD="$(zenity --password --title=Authentication)\n"
-
 if zenity --question --text="Want to proceed?"
 then 
     PASSWD="$(zenity --password --title=Authentication)\n"
